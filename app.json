@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "firstnative",
-    "slug": "firstnative",
+    "name": "Aura",
+    "slug": "aura ",
+    "scheme":"aura",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package":"com.krish.aora"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
